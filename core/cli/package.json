@@ -23,6 +23,7 @@
     "access": "public"
   },
   "dependencies": {
-    "@joycexiu-cli-dev/utils": "file:../../utils/utils"
-  }
+    "@joycexiu-cli-dev/utils": "^1.0.1"
+  },
+  "gitHead": "d90d6b09ce75d4dea069ff1e619c1f7a2e6cf98c"
 }
