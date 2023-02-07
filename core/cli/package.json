@@ -1,11 +1,14 @@
 {
-  "name": "@joycexiu-cli-dev/utils",
+  "name": "@joycexiu-cli-dev/core",
   "version": "1.0.0",
-  "description": "joycexiu-cli-dev utils",
+  "description": "joycexiu-cli-dev core",
   "author": "xiude <1287343381@qq.com>",
   "homepage": "",
   "license": "ISC",
   "main": "lib/index.js",
+  "bin": {
+    "joycexiu-cli-dev": "bin/index.js"
+  },
   "directories": {
     "lib": "lib",
     "test": "__tests__"
@@ -15,5 +18,11 @@
   ],
   "scripts": {
     "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "@joycexiu-cli-dev/utils": "file:../../utils/utils"
   }
 }
