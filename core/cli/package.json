@@ -1,6 +1,6 @@
 {
   "name": "@joycexiu-cli-dev/core",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "joycexiu-cli-dev core",
   "author": "xiude <1287343381@qq.com>",
   "homepage": "",
@@ -23,7 +23,7 @@
     "access": "public"
   },
   "dependencies": {
-    "@joycexiu-cli-dev/utils": "^1.0.1"
+    "@joycexiu-cli-dev/utils": "^1.0.2"
   },
   "gitHead": "d90d6b09ce75d4dea069ff1e619c1f7a2e6cf98c"
 }
