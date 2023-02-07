@@ -3,5 +3,5 @@
 module.exports = utils;
 
 function utils() {
-    console.log('joycexiu-cli-dev utils!');
+    console.log('joycexiu-cli-dev utils!!!');
 }
