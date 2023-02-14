@@ -23,7 +23,20 @@
     "access": "public"
   },
   "dependencies": {
-    "@joycexiu-cli-dev/utils": "^1.0.2"
+    "@joycexiu-cli-dev/get-npm-info": "file:../../utils/get-npm-info",
+    "@joycexiu-cli-dev/exec": "file:../exec",
+    "@joycexiu-cli-dev/log": "file:../../utils/log",
+    "@joycexiu-cli-dev/init":"file:../../commands/init",
+    "@joycexiu-cli-dev/utils": "file:../../utils/utils",
+    "colors": "^1.4.0",
+    "commander": "^6.2.1",
+    "dotenv": "^8.2.0",
+    "import-local": "^3.1.0",
+    "npmlog": "^7.0.1",
+    "path-exists": "^4.0.0",
+    "root-check": "^1.0.0",
+    "semver": "^7.3.8",
+    "user-home": "^2.0.0"
   },
   "gitHead": "d90d6b09ce75d4dea069ff1e619c1f7a2e6cf98c"
 }
